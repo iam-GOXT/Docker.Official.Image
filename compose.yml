@@ -4,7 +4,7 @@ volumes:
 
 services:
   rocketchat:
-    image: registry.rocket.chat/rocketchat/rocket.chat:${RELEASE:-latest}
+    image: registry.rocket.chat/rocketchat/rocket.chat:${RELEASE:-6.5.3}
     restart: always
     labels:
       traefik.enable: "true"
